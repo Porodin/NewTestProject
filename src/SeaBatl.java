@@ -35,7 +35,6 @@ public class SeaBatl {
         int yHorizontal = scanner.nextInt();
         System.out.println("--Происходит выстрел--" + "\n");
 
-        Boolean aBoolean = false;
         while (true){
             if (ourMap[xVertical][yHorizontal] == '*') {
                 ourMap[xVertical][yHorizontal] = '0';
